@@ -9,11 +9,11 @@ import numpy as np
 import os
 import pickle
 from collections import OrderedDict
-import pycocotools.mask as mask_util
+import pycocotools1.mask as mask_util
 import torch
 from fvcore.common.file_io import PathManager
-from pycocotools.coco import COCO
-from pycocotools.cocoeval import COCOeval
+from pycocotools1.coco import COCO
+from pycocotools1.cocoeval import COCOeval
 from tabulate import tabulate
 
 import detectron2.utils.comm as comm
